@@ -1,35 +1,133 @@
 p{
-    font-size:20px;
+    font-size: 20px;
 }
 
 div{
-    background-color:purple;
-    color:lime;
-    display:inline-block;
-}
-#nopadding{
-    padding:0;
-
-}
-#padding{
-    padding:50px;
+    background-color: blueviolet;
+    color: rgb(8, 236, 8);
+    display: inline-block;
 }
 
-#toppadding{
-    padding-top:50px;
-}
-#rightpadding{
-    padding-right:50px;
-}
-#leftpadding{
-    padding-left:50px;
-}
-#bottompadding{
-    padding-bottom:50px;
+#noPadding{
+    padding: 0;
 }
 
-/*order is always TOP RIGHT BOTTOM LEFT*/
+ #padding{
+     padding:  50px;
+}
 
-#mixedpadding{
-    padding: 10px 40px 100px 20px;
+#topPadding{
+    padding-top: 50px;
+}
+
+#leftPadding{
+    padding-left: 50px;
+}
+
+#bottomPadding{
+    padding-bottom: 50px;
+}
+
+#rightPadding{
+    padding-right: 50px;
+}
+
+#mixedPadding{
+  padding: 10px 40px 100px 20px;
+} 
+
+#dottedBorder{
+    border: 3px dotted navy
+}
+
+#solidBorder{
+    border: 4px solid yellow;
+} 
+
+#doubleBorder{
+    border: 3px double green; 
+} 
+
+#grooveBorder{
+    border: 4px groove orange; 
+} 
+
+#ridgeBorder{
+    border: 5px ridge purple; 
+} 
+
+#insetBorder{
+    border: 10px inset gray; 
+} 
+
+#outsetBorder{
+    border: 5px outset red; 
+} 
+
+#mixedBorder{
+    border-color: chartreuse; 
+    border-style: dotted outset inset groove; 
+    border-width: 20px; 
+} 
+
+.row1{
+    width: 25%; 
+    border: 5px inset gray; 
+    padding: 10px; 
+    text-align: center; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+.row2{
+    width: 30%; 
+    border: 2px solid black; 
+    margin-top: 20px; 
+} 
+
+#center{
+    display: block; 
+    width: 25%; 
+    margin: auto; 
+    margin-top: 25px; 
+    margin-bottom: 50px; 
+} 
+
+#perLeftMargin{
+    height: 200px; 
+    width: 35%; 
+    margin-left: 10%; 
+    margin-right: 10%; 
+} 
+#perRightMargin{
+    height: 200px; 
+    width: 35%; 
+}
+.defaultpadding{
+    padding:10px;
+
+}
+
+.defaultmargin{
+    margin: 0px 30px;
+
+}
+
+.defaultBorder{
+
+    border:3px ridge lime;
+}
+/*SELECTS ELEMENTS INSIDE OTHER ELEMENTS*/
+section h3{
+    font-size:42px;
+
+}
+
+section header h3{
+    font-size:30px;
+
+}
+
+section article p{
+    color:goldenrod;
 }

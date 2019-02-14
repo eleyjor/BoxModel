@@ -1,20 +1,78 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Box Model Examples</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Box Model Examples</title>
     </head>
     <body>
         <h1>Box Model</h1>
-        <p>The div on the left shows no padding, the div on the right shows a 2px padding.</p>
-        <div id="noPadding">Some text.</div>
+        <p>The div on the left shows no padding, the div on the right shows a 2px padding</p>
+        <div id="noPadding">Some text</div>
         <div id="padding">Some text</div>
-        <p>You can specify which side(top, right, bottom, left) and the size of the padding.</p>
-        <div id="toppadding">Top Padding</div>
-        <div id="rightpadding">Right Padding</div>
-        <div id="bottompadding">Bottom Padding</div>
-        <div id="leftpadding">Left Padding</div>
-        <div id="mixedpadding">Mixed Padding</div>
+        <p>You Can Especify Which Side (Top, Right, Bottom, Left) and the size of the padding</p>
+        <div id="topPadding">Top Padding</div>
+        <div id="rightPadding">Right Padding</div>
+        <div id="bottomPadding">Bottom Padding</div>
+        <div id="leftPadding">Left Padding</div>
+        <div id="mixedPadding">Mixed Padding</div>
+        
+        <h2>Borders</h2> 
+        <p>The div on the left shows no border, the div on the right shows a 3px dotted border.</p>
+
+        <div id="noBorder">Some Text</div> 
+        <div id="dottedBorder">Some Text</div> 
+
+        <p>There are many different styles of border. THere are 9 we will discuss here.</p>
+        <div id="dashedBorder">Some Text</div> 
+        <div id="solidBorder">Some Text</div>
+        <div id="doubleBorder">Some Text</div>
+        <div id="grooveBorder">Some Text</div>
+        <div id="ridgeBorder">Some Text</div>
+        <div id="insetdBorder">Some Text</div>
+        <div id="outsetBorder">Some Text</div>
+        <div id="mixedBorder">Some Text</div> 
+
+        <h2>Margins</h2> 
+        <p>Margins are the space between elements. They follow the same basic principles as padding.</p> 
+
+        <div class="row1">Some Text</div> 
+        <div class="row1">Some Text</div>
+        <div class="row1">Some Text</div>
+        <div class="row2">Some Text</div>
+        <div class="row2">Some Text</div>
+        <div class="row2">Some Text</div> 
+
+        <div id="center">Some Text</div> 
+        <div id="perLeftMargin">Some Text</div> 
+        <div id="perRightMargin">Some Text</div> 
+
+        <h2>Putting it all together!!</h2>
+
+        <div class="defaultpadding defaultBorder">Some Text</div>
+        <div class="defaultpadding defaultMargin">>Some Text</div>
+        <div class="defaultpaddingdefaultBorder">Some Text</div>
+        <br>
+        <div class="defaultpadding">Some Text</div>
+        <div class="defaultpadding defaultBorder defaultMargin">Some Text</div>
+        <div class="defaultpadding">Some Text</div>
+
+        <p>we  can also use css to target specific elements that are contained inside 
+        other elements.</p>
+
+        <section class='defaultBorder'>
+            <h3>Some Text Header</h3>
+            <header>
+                <h3>Some Text Smaller Header</h3>
+            </header>
+            <article>
+                <p>A paragraph Inside an Article.</p>
+            </article>
+            <p>Another Paragraphh</p>
+        </section>
+
+        <br>
+        <br>
+        <br>
 
     </body>
 </html>
